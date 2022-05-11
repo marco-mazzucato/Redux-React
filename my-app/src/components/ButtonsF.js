@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Buttons(props) {
+export default function ButtonsF(props) {
     return (
         <div className='container'>
         <button className='agg' onClick={() => props.s(props.c +1)}>Aumenta</button>
